@@ -78,9 +78,11 @@ mcd-value-calc/
 │   ├── report.py           # result.md 渲染
 │   └── render_html.py      # HTML 报告渲染
 ├── example/                # 实测示例（result.md + report.html）
+├── tools/
+│   └── export_conversation.py  # 从 WorkBuddy 会话 JSONL 导出 workbuddy.md
 ├── MCP_INTEGRATION.md      # 麦当劳 MCP 接入说明
 ├── CONTEST_DECLARATION.md  # 参赛声明（官方原文）
-└── workbuddy.md            # WorkBuddy 开发对话纪要
+└── workbuddy.md            # WorkBuddy 开发对话记录（脚本导出的原文，未改写）
 ```
 
 ## 常用参数
