@@ -1,0 +1,16 @@
+# 运行产物（可重新生成）
+cache/
+*.log
+
+# 本地凭证（绝不入库）
+.env
+.env.*
+*.token
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
