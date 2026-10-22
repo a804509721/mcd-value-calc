@@ -36,7 +36,7 @@ export MCD_MCP_URL="https://mcp.mcd.cn"
 export MCD_MCP_TOKEN="你的Token"
 ```
 
-（也支持从 `~/.workbuddy/mcp.json` 的 `mcd-mcp` 条目读取，供 WorkBuddy 用户复用已有配置。）
+（也支持从 `~/.workbuddy/mcp.json` 的 `mcd-mcp` 条目读取，供 WorkBuddy 用户复用已有配置；或参考 [`mcp-config.example.json`](mcp-config.example.json) 配置 MCP 客户端。）
 
 ### 2. 运行
 
