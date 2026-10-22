@@ -66,7 +66,22 @@ python scripts/render_html.py
 
 ### 3. 作为 WorkBuddy Skill 安装（可选）
 
-把整个目录复制到 `~/.workbuddy/skills/mcd-value-calc`，在 WorkBuddy 里说「麦当劳什么最划算」「30 块怎么吃蛋白最多」即可触发。
+本仓库本身就是一个 WorkBuddy Skill（入口见 [SKILL.md](SKILL.md)）。把整个目录复制到 `~/.workbuddy/skills/mcd-value-calc`，在 WorkBuddy 里说「麦当劳什么最划算」「30 块怎么吃蛋白最多」即可触发。
+
+## 仓库结构
+
+```
+mcd-value-calc/
+├── SKILL.md                # WorkBuddy Skill 入口说明
+├── scripts/
+│   ├── mcd_value.py        # 主程序：门店→菜单→成交价→营养匹配→榜单→背包
+│   ├── report.py           # result.md 渲染
+│   └── render_html.py      # HTML 报告渲染
+├── example/                # 实测示例（result.md + report.html）
+├── MCP_INTEGRATION.md      # 麦当劳 MCP 接入说明
+├── CONTEST_DECLARATION.md  # 参赛声明（官方原文）
+└── workbuddy.md            # WorkBuddy 开发对话纪要
+```
 
 ## 常用参数
 
